@@ -45,15 +45,10 @@ for($i=0; $i < $query->num_rows; $i++){
 		</form>
 
 
-	<form action='upd.php' method='POST'>
-<button class="btn btn-warning">Редактировать</button>
-<input type="hidden" name="text" value="<?php echo $result['id']?>">
-</form>
+		<form action='upd.php' method='POST'>
+			<button class="btn btn-warning">Редактировать</button>
+		</form>
 </div>	
-
-
-
-
 <?php } ?>
 </div>
 </body>
